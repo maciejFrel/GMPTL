@@ -1,10 +1,10 @@
 namespace Console;
 
 public record Criteria(
-    decimal landAreaMin,
-    decimal landAreaMax,
-    decimal interiorAreaMin,
-    decimal interiorAreaMax,
-    decimal priceMin,
-    decimal priceMax
+    decimal LandAreaMin,
+    decimal LandAreaMax,
+    decimal InteriorAreaMin,
+    decimal InteriorAreaMax,
+    decimal PriceMin,
+    decimal PriceMax
     );
